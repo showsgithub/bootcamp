@@ -1,0 +1,36 @@
+/* list-style or list-style-type */
+
+.alpha{
+  list-style: lower-alpha;
+  list-style: upper-alpha;
+}
+.circle{
+  list-style: disc;
+  list-style: circle;
+}
+.roman{
+  list-style: lower-roman;
+  list-style: upper-roman;
+}
+.square{
+  list-style: square;
+  list-style: decimal;
+}
+.disc{
+  list-style: disc;
+}
+
+.ul-outside{
+  background-color: gray;
+  list-style-position: outside;
+}
+.ol-inside{
+  background-color: aqua;
+  list-style-position: inside;
+  list-style: lower-alpha;
+  /* shorthand code */
+  list-style: upper-alpha inside;
+}
+li{
+  background-color: yellow;
+}

@@ -1,0 +1,29 @@
+table {
+  border: solid black;
+  border-collapse: separate;
+  /* border-spacing: 20px; */
+}
+th {
+  color: white;
+  background-color: rgb(247, 148, 130);
+  /* border-spacing: 20px; */
+}
+td {
+  text-align: center;
+  /* border-spacing: 50px; */
+}
+tr:nth-of-type(odd) {
+  background-color: rgb(246, 195, 100);
+  /* border-spacing: 20px; */
+}
+.person-photo {
+  background-size: 5px;
+}
+tr:nth-child(2){
+  width: 20px;
+  height: 20px;
+}
+img{
+  width: 20px;
+  height: 20px;
+}

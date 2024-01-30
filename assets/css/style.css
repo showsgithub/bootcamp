@@ -1,0 +1,37 @@
+/* selectors */
+*{
+  /* universal */
+  text-decoration: underline;
+  color: green;
+}
+
+/* element */
+p{
+  background-color: aqua;
+}
+/* class = . */
+.para{
+  color: red;
+}
+
+#special{
+  background-color: purple;
+}
+
+/* priority / top-level selector */
+
+#first-priority{
+  background-color: yellow;
+}
+
+.second-priority{
+  background-color: turquoise;
+}
+
+h4{
+  background-color: magenta;
+}
+h4{
+  background-color: thistle;
+  color: red;
+}

@@ -1,0 +1,13 @@
+ul{
+  float: left;
+  list-style: none;
+  box-shadow: 2px 5px 10px black;
+}
+img{
+  width: 300px;
+}
+li{
+  /* background-color: yellow; */
+}
+
+/* Inline-block is not good for layouting. It is only good for changing the behaviour */

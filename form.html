@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h2>Form 1</h2>
+    <form action="https://kredo.jp" method="post">
+      <label for="full_name">Full name</label>
+      <input type="text" name="full_name" id="full_name" value="John Doe" />
+      <input type="submit" name="btn_submit" value="Send" />
+    </form>
+
+    <h2>Registration form</h2>
+    <form action="" method="get">
+      <label for="firstname">First name</label>
+      <input
+        type="text"
+        name="firstname"
+        id="firstname"
+        placeholder="Type your firstname here"
+      />
+
+      <label for="lastname">Last Name</label>
+      <input type="text" name="lastname" id="lastname" required />
+
+      <label for="email_address">Email Address</label>
+      <input
+        type="email"
+        name="email_address"
+        id="email_address"
+        placeholder="johndoe@gmail.com"
+      />
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age" min="18" max="60" />
+
+      <label for="birthday">Birth Date</label>
+      <input type="date" name="birthday" id="birthday" />
+
+      <!-- radio and checkbox -->
+      <div>
+        <p>Please choose your favorite music genre:</p>
+
+        <input type="radio" name="music" value="pop" id="pop" />
+        <label for="pop">Pop</label>
+
+        <input type="radio" name="music" value="rock" id="rock" />
+        <label for="rock">Rock</label>
+
+        <input type="radio" name="music" value="jazz" id="jazz" />
+        <label for="jazz">Jazz</label>
+      </div>
+
+      <div>
+        <!-- checkbox -->
+        <p>Please choose your favorite food/s:</p>
+
+        <input type="checkbox" name="food" value="ramen" id="ramen" />
+        <label for="ramen">Ramen</label>
+
+        <input type="checkbox" name="food" value="sushi" id="sushi" />
+        <label for="sushi">sushi</label>
+
+        <input type="checkbox" name="food" value="curry" id="curry" />
+        <label for="curry">Curry</label>
+      </div>
+
+      <div>
+        <!-- upload file -->
+        <label for="photo">Upload your photo</label>
+        <input type="file" name="photo" id="photo" />
+      </div>
+
+      <div>
+        <!-- dropdown list -->
+        <label for="device">What is your device?</label>
+        <select name="device" id="device" multiple>
+          <option value="macbook">Macbook</option>
+          <option value="ipad">Ipad</option>
+          <option value="iphone">iphone</option>
+        </select>
+      </div>
+      <div>
+        <!-- comment box -->
+        <label for="comments">Comments:</label>
+        <textarea
+          name="comments"
+          id="comments"
+          cols="10"
+          rows="10"
+          placeholder="Type your comments here"
+        ></textarea>
+      </div>
+
+      <!-- button -->
+      <input type="submit" name="submit" value="Register" />
+      <button type="submit" name="submit">Send</button>
+    </form>
+  </body>
+</html>

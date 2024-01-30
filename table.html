@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table element</title>
+  <link rel="stylesheet" href="assets/css/css-table.css">
+</head>
+<body>
+  <!-- table element -->
+  <h2>Table 1</h2>
+  <table class="table-1">
+    <!-- tr = table row -->
+    <tr>
+      <!-- td = table data = column -->
+      <td>Data 1</td>
+      <td class="data2">Data 2</td>
+      <td>Data 3</td>
+    </tr>
+    <tr>
+      <td>data 4</td>
+      <td>data 5</td>
+      <td>data 6</td>
+    </tr>
+    <tr>
+      <td>data 7</td>
+      <td>data 8</td>
+      <td>data 9</td>
+    </tr>
+  </table>
+  <h2>Table 2</h2>
+  <table class="table-2">
+    <tr>
+      <!-- th = table heading -->
+      <th>Name</th>
+      <th>Age</th>
+      <th>Email Address</th>
+    </tr>
+    <tr>
+      <td>Steve Jobs</td>
+      <td>60</td>
+      <td>steve1234@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Adam Sandler</td>
+      <td>45</td>
+      <td>adamsandler@gmail.com</td>
+    </tr>
+  </table>
+
+  <h2>Table 3</h2>
+  <table class="empty-cells">
+    <!-- thead = table head section -->
+    <thead>
+      <tr>
+        <th></th>
+        <th>Second Week</th>
+        <th></th>
+      </tr>
+    </thead>
+    <!-- tbody = table body section -->
+    <tbody>
+      <tr>
+        <td>200</td>
+        <td>400</td>
+        <td>450</td>
+      </tr>
+      <tr>
+        <td>300</td>
+        <td>350</td>
+        <td>500</td>
+      </tr>
+    </tbody>
+    <!-- tfoot = table footer section -->
+    <tfoot>
+      <tr>
+        <th>500</th>
+        <th></th>
+        <th>950</th>
+      </tr>
+    </tfoot>
+  </table>
+  <h2>Table 4: colspan</h2>
+  <table class="table-4">
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Contact Number</th>
+      <!-- <th></th> -->
+    </tr>
+    <tr>
+      <td>Bill Gates</td>
+      <td>0908009</tdh>
+      <td>0908009</td>
+    </tr>
+    <tr>
+      <td>Michael Jackson</td>
+      <td>0908009</tdh>
+      <td>0908009</td>
+    </tr>
+  </table>
+  <h2>table 5: rowspan</h2>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <td>Bill</td>
+      <td>Steve</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Contact Number</th>
+      <td>854085408540</td>
+      <td>854085408540</td>
+    </tr>
+    <tr>
+      <!-- <th></th> -->
+      <td>854085408540</td>
+      <td>854085408540</td>
+    </tr>
+  </table>
+</body>
+</html>

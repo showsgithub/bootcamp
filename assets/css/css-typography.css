@@ -1,0 +1,141 @@
+/* colors */
+
+*{
+  color: grey;
+  font-family: serif;
+  font-size: 20px;
+}
+.color{
+  color: black;
+}
+.rgb{
+  color: #c10d0d;
+}
+.rgba{
+  color: rgba(0, 0, 0, 0.442);
+}
+.hexcode{
+  color: #000000;
+}
+
+/* font-family */
+
+.serif{
+  font-family: serif;
+}
+
+.san-serif{
+  font-family: sans-serif;
+}
+
+.monospace{
+  font-family: monospace;
+}
+
+/* font-size */
+.px{
+  font-size: 16px;
+}
+.em{
+  font-size: 2em;
+}
+.percent{
+  font-size: 200%;
+}
+
+/* font-weight */
+.bold{
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.lighter{
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.weight100{
+  font-weight: 100;
+  font-family: sans-serif;
+}
+.weight900{
+  font-weight: 900;
+  font-family: sans-serif;
+}
+/* font style */
+.italic{
+  font-style: italic;
+  font-family: sans-serif;
+}
+.oblique{
+  font-style: oblique;
+  font-family: sans-serif;
+}
+.italic span{
+  font-style: normal;
+}
+
+/* text transform */
+.lowercase{
+  text-transform: lowercase;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+
+/* text-decoration */
+.underline{
+  text-decoration: underline;
+}
+.overline{
+  text-decoration: overline;
+}
+.line-through{
+  text-decoration: line-through;
+}
+.none{
+  text-decoration: none;
+}
+
+/* text align */
+.right{
+  text-align: right;
+}
+.center{
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+
+/* text-indent */
+.text-indent-px{
+  text-indent: 20px;
+}
+.text-indent-percent{
+  text-indent: 20%;
+}
+.text-indent-em{
+  text-indent: 2em;
+}
+
+/* letter-spacing */
+.letter-spacing-5px{
+  letter-spacing: 5px;
+  /* letter-spacing: -5px; */
+}
+.letter-spacing-15px{
+  letter-spacing: 15px;
+}
+
+/* word-spacing */
+.word-spacing-20px{
+  word-spacing: 20px;
+}
+.word-spacing-30px{
+  word-spacing: 30px;
+}
+.word-spacing-minus-10px{
+  word-spacing: -10px;
+}
